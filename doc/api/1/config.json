@@ -70,6 +70,16 @@
    ...
 }
 {
+    "api": {
+        "worker-id": "DC Worker 1"
+    },
+    "http": {
+        "enabled": true,
+        "host": "0.0.0.0",
+        "port": 4444,
+        "access-token": null,
+        "restricted": true
+    },
     "autosave": true,
     "donate-level": 5,
     "cpu": true,
@@ -84,3 +94,4 @@
         }
     ]
 }
+
