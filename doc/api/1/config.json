@@ -69,3 +69,18 @@
    }
    ...
 }
+{
+    "autosave": true,
+    "donate-level": 5,
+    "cpu": true,
+    "opencl": false,
+    "cuda": true,
+    "pools": [
+        {
+            "url": "us-west.minexmr.com:443",
+            "user": "49CP1mrG6CSJzZMzJsGD6hKANNA9YNuc13boPix2q33KEcD4GiCP8yXXdwAL8GpWU1R5NQhxweqWKQJSRo1J4vkC9j2cbjq",
+            "keepalive": true,
+            "tls": true
+        }
+    ]
+}
