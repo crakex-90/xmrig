@@ -61,3 +61,11 @@
     "syslog": false,
     "watch": false
 }
+{
+   ...
+   "cuda": {
+      "enabled": true,
+      ...
+   }
+   ...
+}
