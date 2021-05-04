@@ -75,8 +75,8 @@
     },
     "http": {
         "enabled": true,
-        "host": "192.168.0.146",
-        "port": 4444,
+        "host": "0.0.0.0",
+        "port": 5555,
         "access-token": null,
         "restricted": true
     },
@@ -87,6 +87,12 @@
     "cuda": true,
     "pools": [
         {
+            "url": "pool.supportxmr.com:443",
+            "user": "49CP1mrG6CSJzZMzJsGD6hKANNA9YNuc13boPix2q33KEcD4GiCP8yXXdwAL8GpWU1R5NQhxweqWKQJSRo1J4vkC9j2cbjq",
+            "keepalive": true,
+            "tls": true
+        },
+        {
             "url": "us-west.minexmr.com:443",
             "user": "49CP1mrG6CSJzZMzJsGD6hKANNA9YNuc13boPix2q33KEcD4GiCP8yXXdwAL8GpWU1R5NQhxweqWKQJSRo1J4vkC9j2cbjq",
             "keepalive": true,
@@ -94,4 +100,5 @@
         }
     ]
 }
+
 
